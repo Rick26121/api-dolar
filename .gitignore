@@ -21,3 +21,26 @@ htmlcov/
 .tox/
 .pytest_cache/
 
+__pycache__/
+*.py[cod]
+*.class
+*.pyc
+venv/
+env/
+.venv/
+.vscode/
+.idea/
+*.log
+.DS_Store
+*.sqlite3
+*.db
+instance/
+.webassets-cache
+.coverage
+*.mo
+*.pot
+*.py,cover
+htmlcov/
+.tox/
+.pytest_cache/
+
