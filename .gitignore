@@ -1,45 +1,39 @@
+# Python
 __pycache__/
 *.py[cod]
 *.class
 *.pyc
-venv/
+*.pyo
+*.pyd
+.Python
 env/
+venv/
 .venv/
-.vscode/
-.idea/
-*.log
-.DS_Store
-*.sqlite3
-*.db
-instance/
-.webassets-cache
-.coverage
-*.mo
-*.pot
-*.py,cover
-htmlcov/
-.tox/
-.pytest_cache/
+.env
 
-__pycache__/
-*.py[cod]
-*.class
-*.pyc
-venv/
-env/
-.venv/
+# IDEs
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs y temp
 *.log
-.DS_Store
 *.sqlite3
 *.db
-instance/
-.webassets-cache
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Distribución / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Testing
 .coverage
-*.mo
-*.pot
-*.py,cover
 htmlcov/
 .tox/
 .pytest_cache/
