@@ -29,9 +29,7 @@ def obtener_tasas():
             "status": "success",
             "dolar": limpiar_tasa(dolar),
             "euro": limpiar_tasa(euro),
-            "fuente": "BCV",
-            "esta api esta bajo produccion"
-            "hola soy rick"
+            "fuente": "BCV"
         }
     except Exception as e:
         return {"status": "error", "mensaje": str(e)}
